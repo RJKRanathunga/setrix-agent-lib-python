@@ -4,7 +4,7 @@ from ..base import safe_import
 def instrument(app):
     module = safe_import(
         "opentelemetry.instrumentation.flask",
-        "pip install sentinel-agent-lib[flask]",
+        "pip install setrix-agent[flask]",
     )
 
     FlaskInstrumentor = module.FlaskInstrumentor

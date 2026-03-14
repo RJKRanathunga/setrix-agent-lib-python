@@ -1,3 +1,4 @@
-from .agent import SentinelAgent
+from .agent import SetrixAgent
 
-__all__ = ["SentinelAgent"]
+__all__ = ["SetrixAgent"]
+__version__ = "0.1.0"

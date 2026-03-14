@@ -4,7 +4,7 @@ from ..base import safe_import
 def instrument():
     module = safe_import(
         "opentelemetry.instrumentation.httpx",
-        "pip install sentinel-agent-lib[httpx]",
+        "pip install setrix-agent[httpx]",
     )
 
     HTTPXClientInstrumentor = module.HTTPXClientInstrumentor

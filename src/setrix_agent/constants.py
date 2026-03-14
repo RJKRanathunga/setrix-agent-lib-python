@@ -1,4 +1,4 @@
-SENTINEL_URL   = "http://localhost:8000/server"
+SETRIX_URL   = "http://localhost:8000/server"
 
 ALLOWED_FRAMEWORKS = {
     "flask",
